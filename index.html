@@ -15,15 +15,15 @@
        </div>
        <div class="conteudo-senha">
          <label for="senha">Senha</label>
-         <input name="senha" type="text" id="campo-senha">
+         <input name="senha" type="text" id="campo-senha" readonly>
        </div>
        <div class="parametro-coluna__senha">
            <div class="parametro-senha">
                <h4 class="parametro-senha__titulo">Número de caracteres</h4>
                <div class="parametro-senha-botoes">
-                   <button class="parametro-senha__botao">-</button>
+                   <button class="parametro-senha__botao" id="diminuir">-</button>
                    <p class="parametro-senha__texto">12</p>
-                   <button class="parametro-senha__botao">+</button>
+                   <button class="parametro-senha__botao" id="aumentar">+</button>
                </div>
            </div>
            <div class="parametro-senha">
@@ -46,5 +46,8 @@
            </div>
        </div>
     </section>
+    <script src="main.js"></script>
 </body>
 </html>
+
+
